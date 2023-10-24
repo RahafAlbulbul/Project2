@@ -23,7 +23,7 @@ public class MyClass {
 		driver.findElement(By.id("login-button")).click();
 		
 		List<WebElement>AddToCartButtons = driver.findElements(By.className("btn_primary"));
-			for(int i= 0; i< AddToCartButtons.size(); i=i+1) {
+			for(int i= 0; i< AddToCartButtons.size(); i=i+2) {
 				AddToCartButtons.get(i).click();
 				
 			}
